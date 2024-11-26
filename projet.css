@@ -1,0 +1,30 @@
+.appli{
+    display: flex;
+    flex-direction: column;
+    gap : 2em ;
+    margin-left: 20em;
+    margin-bottom: 20em;
+}
+.appli img[title="qrcode"]{
+    margin-top: 5em;
+    width: 15em;
+    height: 15em;
+}
+.appli img[title="eatwell"]
+{
+    width: 50em;
+    height: 25em;
+    border-radius: 30px;
+}
+.appli p {
+   /* background-color: orangered;*/
+    background: linear-gradient(orange,orangered);
+    padding: 1em;
+    font-size: 1.5em;
+    font-weight: 600;
+   /* border: 2px solid rgb(252, 153, 5); */
+    color: aliceblue;
+    border-radius: 35px;
+    width: 7em;
+  
+}

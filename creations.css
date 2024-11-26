@@ -1,0 +1,75 @@
+.video_box{
+    /*background-color: rgb(143, 193, 193);*/
+    padding: 6em;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10em ;
+    width: 10em;
+    height: 17.5em;
+   /* border: 2px solid brown;*/
+    margin-left: 10em;
+}
+
+video {
+    width: 130%; /* il prend la totalite du cadre*/
+    height: 130%;
+    border: 2px double rgba(114, 105, 80, 0.679);
+    background-color: rgb(240, 228, 192);
+    border-radius: 35px;
+}
+.bande {
+    margin-top: 2em;
+    margin: 8em ;
+    margin-left: 25em;
+    width: 30.55em;
+    height: 17.19em;
+    margin-bottom: 10em;
+
+}
+.bande p {
+    font-size: 2em;
+    margin-left: 5em;
+}
+
+img[title="pizza"]{ 
+    margin-top: 20em;
+    margin-bottom: 20em;
+    width: 34em;
+    height: 25em;
+    border-radius: 15px;
+    border: 2px double rgba(100, 63, 7, 0.604);
+}
+
+img[title="sushi"]{ 
+    width: 14em;
+    height: 17em;
+    border-radius: 25px;
+    border: 2px double rgb(255, 40, 2);
+    
+}
+img[title="mabawa"]{ 
+    width: 22em;
+    height: 25em;
+    border-radius: 25px;
+    border: 2px double rgba(214, 139, 126, 0.758);
+}
+img:hover
+{
+    opacity:0.5 ;
+}
+video:hover {
+    opacity: 0.6;
+}
+.pub_photo{
+    padding: 8em;
+    display: flex;
+    align-items: center;
+    margin-left: 10em ;
+    width: 50em;
+    height: 17em;
+    gap:10em;
+    /*border: 2px solid black;
+    background-color: aqua;*/
+
+}

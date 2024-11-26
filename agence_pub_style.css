@@ -1,0 +1,378 @@
+
+/* lien pour supprime arrie plan d'une photo
+https://www.remove.bg/fr/upload*/
+
+body{
+  /*
+    background-color:rgb(235, 237, 190);*/
+    background: linear-gradient(rgba(225, 204, 172, 0.941),rgba(210, 203, 187, 0.749));
+    padding: 0em;
+    margin: 0em;
+}
+
+
+.color_menu{
+  /*background-color: rgb(228, 139, 4);*/
+  background : linear-gradient(rgb(246, 120, 10),rgba(238, 151, 2, 0.778));
+  padding-top: 2em;
+  /*border: 2px solid black;*/
+  
+}
+
+
+header
+{
+  display: flex;
+  justify-content: center;
+   /*border : 2px #0a0ae8 solid;*/
+  
+   
+}
+
+.menu{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: rgba(219, 211, 174, 0.53);
+  
+  border-radius: 25px;
+  
+  align-items:center;
+  padding:10px;
+  width: 400px;
+  
+  /*flex-direction: column;
+  border : 2px #e7c3b5 solid;*/
+  position:fixed; /*sa fixe le trux meme quand on se deplce il reste toujour au meme endroit*/
+  top: 20px; /* pour qu'il soit en haut */
+  
+}
+h1{
+ /* font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  text-align: left;*/
+
+
+  font-family: "Abril Fatface", serif;
+  font-weight:400;
+  font-style: normal;
+  font-size: 5em;
+  color: white;
+  padding-left:0.5em;
+}
+
+.h1_videobox{
+  position: absolute;
+}
+h1 img {
+  width: 1em;
+  height: 1em;
+  object-fit: cover; /*l'image ne sera pas deformer */ 
+  border-radius: 15px;
+  opacity: 0.9;
+}
+  
+video {
+  width: 100%;
+  height: 20%;
+
+}
+.videobox {
+
+  height: 20%;
+}
+h2 {
+  /*font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+
+
+  font-family: "Edu AU VIC WA NT Pre", cursive;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;*/
+
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  
+
+  
+  
+  text-align: center;
+  font-size: 4em;
+}
+
+h3 {
+  /*
+  font-family: "Dancing Script", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+
+  font-family: "Edu AU VIC WA NT Pre", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+
+  font-family: "Abril Fatface", serif;
+  font-weight: 400;
+  font-style: normal;
+  */
+  font-family: "Luckiest Guy", cursive;
+  font-weight: 400;
+  font-style: normal;
+
+  color: rgb(231, 147, 2);
+  /*color: #e8490a;*/
+  font-size: 5em;
+  padding-left: 3em;
+ /* background-color: aliceblue;*/
+  
+  
+
+}
+.non_s{
+  font-size: 1em;
+  
+  text-decoration : none; 
+  color : black;
+  
+  
+  padding:0.5em;
+
+}
+nav a:hover
+{
+  background-color: rgb(246, 189, 2);
+  border-radius: 12px ;
+ 
+  
+}
+.crea {
+  display: flex;
+  flex-direction: row;
+  gap: 5em;
+  margin-left: 15em;
+  /*background-color: rgb(224, 238, 238);
+  border: 2px solid rgb(247, 130, 13);*/
+
+}
+h3 a {
+  text-decoration: none;
+  /*color: #e8490a;*/
+  color: rgb(231, 147, 2);
+ /* background: linear-gradient(orange,orangered);*/
+}
+.crea p {
+  /*background-color: aqua;*/
+  border: 2px solid rgb(250, 246, 245);
+  margin-right: 10em;
+  
+}
+.crea img{
+  width: 15em ;
+  height: 17em;
+  border: 1px solid orangered;
+}
+img[alt="fleche"]{
+  width: 5em;
+  height: 5em;
+  object-fit: cover;
+  background: linear-gradient(rgba(255, 251, 4, 0.977),rgb(243, 121, 15));
+  
+ border: 2px solid rgb(243, 121, 15);
+  border-radius: 85px;
+}
+.equipe{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  gap: 8em; /*sa met des espace entre les element dans le flex */
+  
+}
+
+.box_sec{
+
+ /* background-color: #e3d0c8;
+  border: 2px solid rgba(228, 129, 7, 0.734);*/
+  border-radius: 12px;
+
+  margin-left: 7em;
+  width: 80em;
+  display: flex;
+  flex-direction: row;
+  
+  justify-content: space-around;
+}
+.box_1 , .box_2, .box_3 , .box_4{
+  border-radius: 45px;
+  background-color: antiquewhite;
+  padding: 3em;
+  
+  font-size: 1.5em;
+  font-family: "Sour Gummy", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings:"wdth" 100;
+  color: #e8490a;
+}
+section p {
+  font-size: 1em;
+  font-family: "Sour Gummy", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+  color: #e8490a;
+
+
+ 
+  
+}/*
+.prahada{
+  
+  bottom: 0px;
+  left: 52%;
+}
+.pmanon{
+  margin-right: 10em;
+ 
+
+}
+.psarah{
+  margin-right: 5.5em;
+  padding-left: 3em;
+  
+}
+.ploann{
+margin-right: 4em;
+}
+*/
+img[title="Rahada"] {
+  /*border: 2px solid  black;*/
+  border-radius: 130px; /*99% 1% 78% 22% / 37% 51% 49% 63% ;
+/*  border: 2px solid orangered;*/
+  height: 20em;
+  display: inline;
+  /*align-items: center;
+  text-align: center;*/
+
+}
+img[title="Manon"] {
+  /*border: 2px solid  black;*/
+  border-radius: 130px;
+  height: 20em;
+  display: inline;
+  
+
+}
+img[title="Sarah"] {
+  /*border: 2px solid  black;*/
+  border-radius: 130px;
+  height: 20em;
+  display: inline;
+
+}
+img[title="Loann"] {
+  
+  border-radius: 30px;
+  height: 20em;
+  display: inline;
+  
+
+}
+.equipe p {
+  background: linear-gradient(rgba(255, 251, 4, 0.977),rgb(243, 121, 15));
+    padding: 0.5em;
+    font-size: 1em;
+    font-weight: 600;
+   /* border: 2px solid rgb(252, 153, 5); */
+    color: aliceblue;
+    border-radius: 35px;
+}
+
+.projet{
+    display: flex;
+    flex-direction: row;
+   /* background-color: #83756f;*/
+    gap: 10em 
+}
+.projet p {
+  text-decoration: none;
+ 
+  margin-top: 4em;
+  padding: 1em;
+  margin-bottom: 8em;
+  color: rgb(247, 247, 247);
+  /*font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  
+  
+  font-style: oblique;
+  font-weight: bold;
+  font-weight: 1000;*/
+  border-radius: 24px;
+ /* border: 2px solid rgb(221, 130, 12);*/
+  background: linear-gradient(orange,orangered);
+  font-size: 1.5em;
+  font-family: "Sour Gummy", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+footer{
+  padding: 2em;
+  background-color: rgb(221, 130, 12);
+ /*background : linear-gradient(rgba(238, 151, 2, 0.778),rgb(220, 126, 4));
+*/
+  padding-bottom: 2em;
+  
+}
+
+footer div p[id="titre"] {
+  text-align: center;
+  font-weight: 1000;
+  font-style: oblique;
+
+}
+footer p {
+  text-align: center;
+  /*font-weight: 800;*/
+  font-style: oblique;
+}
+footer a img{
+
+  height: 2.5em;
+  width: 2.5em;
+  margin:1.5em;
+  /*
+  pour voir le padding
+  padding: 4em;
+  background-color: #b65027;*/
+
+  
+}
+a {
+  text-decoration: none;
+}
+@media screen and(max-width: 420px)
+{
+
+ body{
+  background-color: aquamarine;
+
+ }
+
+
+
+  
+}
